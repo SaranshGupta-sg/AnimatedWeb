@@ -31,7 +31,7 @@ const About = () => {
           ease: "power1.inOut",
           stagger: 0.04,
         },
-        "-=0.5",
+        "-=0.5", // it will make animation allow half a second before the previous one ends.
       );
   });
   return (
